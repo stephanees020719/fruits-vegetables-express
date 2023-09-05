@@ -11,8 +11,8 @@ class New extends React.Component {
           Name: <input type="text"  name="name" /> <br />
           Color: <input type="text" name="color" /> <br />
           Is Ready To Eat: <input type="checkbox" name="readyToEat" /> <br />
-          Image URL: <input type="text" name="img" />
-          <input type="submit" value="CreateFruit" />
+          Image URL: <input type="text" name="img" /><br />
+          <input type="submit" value="CreateFruit" /><br />
         </form>
         <nav>
           <a href="/fruits">Back</a>
