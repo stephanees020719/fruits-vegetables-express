@@ -1,22 +1,24 @@
 const React = require('react')
-//define component show
+
 class Show extends React.Component {
-  //render the component
-    render () {
-    //prop objects
-    const { name, color ,readyToEat} = this.props.fruit
+  render () {
+    const { name, color ,readyToEat, img} = this.props.fruit
 
     return (
       <div>
         <h1> Show Page </h1>
-        
-        The {name} is {color}.  
+        <div>
+        The {name} is {color}.
         And {
           readyToEat ? 
             "It is ready to eat!"
           :
             "It is not ready to eat... Cant touch this"
         }
+       
+        </div>
+       
+        <img src={img} alt="" />
       </div>
     );
   }

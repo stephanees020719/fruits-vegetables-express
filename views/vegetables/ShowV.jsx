@@ -4,7 +4,7 @@ const React = require('react');
 class ShowV extends React.Component {
   render () {
     //destructure the props object to get the vegetable object
-    const { name, color ,readyToEat} = this.props.vegetable
+    const { name, color ,readyToEat, img} = this.props.vegetable
 
     return (
       <div>
@@ -16,7 +16,9 @@ class ShowV extends React.Component {
           :
             "It is not ready to eat... "
         }
+        <img src={img} alt="" />
       </div>
+        
     );
   }
 }
