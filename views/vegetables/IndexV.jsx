@@ -18,7 +18,7 @@ class IndexV extends React.Component {
               return (
                 <li>
                   The{' '}
-                    <a href={`/vegetables/${v}`}>
+                    <a href={`/vegetables/${vegetable._id}`}>
                       {vegetable.name}
                     </a>
                     {' '}
