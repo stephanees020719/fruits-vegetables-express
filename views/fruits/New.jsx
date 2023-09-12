@@ -14,6 +14,7 @@ class New extends React.Component {
           Image URL: <input type="text" name="img" /><br />
           <input type="submit" value="CreateFruit" /><br />
         </form>
+                    
         <nav>
           <a href="/fruits">Back</a>
         </nav>
